@@ -1,0 +1,216 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Mulish", sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 1247px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+/* header start */
+.site-header {
+    padding: 35px 0;
+}
+
+.site-header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-header__nav-list {
+    display: flex;
+    margin: 0;
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.site-header__nav-item {
+    margin-left: 40px;
+}
+
+.site-header__nav-link {
+    color: #1f1534;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+}
+/* header end */
+/* main start */
+.site-main {
+    width: 100%;
+}
+.site-hero {
+    width: 100%;
+    margin-bottom: 110px;
+}
+
+.site-hero__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-hero__start {
+    width: 100%;
+    max-width: 800px;
+}
+
+.site-hero__start-title {
+    margin-top: 0;
+    margin-bottom: 25px;
+    color: #000;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+}
+
+.site-hero__start-desc {
+    margin-top: 0;
+    margin-bottom: 45px;
+    color: rgba(119, 119, 119, 1);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.site-hero__start-btn {
+    background-color: rgba(234, 98, 92, 1);
+    padding: 15px  40px;
+    color: white;
+    text-decoration: none;
+}
+/* main end */
+.bek-service {
+    width: 100%;
+    margin-bottom: 220px;
+    text-align: center;
+}
+
+.bek-service__line {
+    margin-bottom: 33px;
+    width: 56px;
+    border: 2px solid #000;
+    border-radius: 5px;
+}
+
+.bek-service__desc {
+    margin-top: 0;
+    margin-bottom: 80px;
+    color: #7d7987;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+.bek-service__list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0;
+    margin-bottom: 35px;
+    padding-left: 0;
+    list-style-type: none;
+}
+.bek-service__item {
+    width: 100%;
+    max-width: 350px;
+    margin-bottom: 37px;
+    padding-top: 54px;
+    padding-right: 45px;
+    padding-bottom: 46px;
+    padding-left: 39px;
+    border: 0px solid #ccc;
+    border-radius: 20px;
+    background-color: #fff;
+}
+.dev-hero {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.dev-hero__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dev-hero__start {
+    width: 100%;
+    max-width: 440px;
+}
+
+.dev-hero__start-title {
+    margin-top: 0;
+    margin-bottom: 25px;
+    color: #000;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+}
+
+.dev-hero__start-desc{
+    margin-top: 0;
+    margin-bottom: 45px;
+    color: rgba(119, 119, 119, 1);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.dev-hero__start-btn {
+    background-color: rgba(234, 98, 92, 1);
+    padding: 15px  40px;
+    color: white;
+    text-decoration: none;
+}
+.back-main{
+    width: 100%;
+    background-image: url(./images/runners\ 1.jpg);
+}
+.back-hero{
+    width: 100%;
+    margin-bottom: 20px;
+
+} 
+.back-hero__wrapper{
+    justify-content:left;
+    align-items:end;
+}
+.back-hero__start{
+    width: 100%;
+    max-width: 400px;
+    justify-content: right;
+}
+.back-hero__start-title{
+    color: #fff;
+    font-family: Roboto;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: left;
+    
+}
+.back-hero__start-desc{
+    margin-top: 0;
+    margin-bottom: 45px;
+    color: rgba(119, 119, 119, 1);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+.back-hero__start-btn{
+    background-color: rgba(234, 98, 92, 1);
+    padding: 15px  40px;
+    color: white;
+    text-decoration: none;
+
+}
